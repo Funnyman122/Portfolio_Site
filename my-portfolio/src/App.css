@@ -1,0 +1,130 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden; /* Disables scrolling */
+    font-family: 'Arial', sans-serif; /* Default font */
+}
+
+/* Center the 3D model */
+#3DModelContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1; /* Adjust as needed */
+    /* Specify width and height if necessary */
+}
+
+/* Progressive Text at the top */
+.progressive-text {
+    font-family: 'Courier New', monospace; /* Typewriter-style font */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 24px;
+    color: purple;
+    z-index: 2; /* Ensure it's above the 3D model */
+    padding-bottom: 2em; /* Bottom padding for spacing */
+    padding-top: 4px;
+}
+
+/* Social Links */
+.social-links {
+    position: fixed;
+    top: 5vh; /* Adjust to avoid overlapping with the 3D model */
+    z-index: 2;
+    list-style: none;
+    font-family: 'Courier New', monospace; /* Typewriter-style font */
+transition: color 0.3s, transform 0.3s; /* Smooth transition for color and transformation */
+  font-size: 1em;
+}
+
+.social-link a:hover {
+    color: blue; /* Change color to blue on hover */
+    transform: translateX(5px); /* Move slightly to the right */
+}
+
+.social-links li {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Username and Tagline */
+.username-tagline {
+    position: fixed;
+    left: 0;
+    right: 0;
+    text-align: center;
+    bottom: 100px; /* Adjust based on the height of your player */
+    z-index: 2;
+}
+
+.username-tagline h1 {
+    color: green;
+    margin: 0;
+    font-family: 'Courier New', monospace; /* Typewriter-style font */
+}
+
+.username-tagline p {
+    color: purple;
+    margin: 0;
+}
+
+/* Custom Player at the bottom */
+.custom-player {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #8B4513; /* Or any color you prefer */
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.custom-player .thumbnail {
+    width: 50px;
+    height: 50px;
+    border-radius: 15%; /* Rounded thumbnail */
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.custom-player .song-info {
+    flex-grow: 1;
+}
+
+.custom-player .song-info .song-title {
+    font-weight: bold;
+}
+
+.custom-player .controls {
+    display: flex;
+    align-items: center;
+}
+
+.custom-player .controls button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+.custom-player .progress-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 2px; /* Height of the progress line */
+    background-color: white;
+    width: 0; /* Initial width should be 0 */
+}

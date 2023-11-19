@@ -1,0 +1,11 @@
+Model Information:
+* title:	Nintendo GameBoy
+* source:	https://sketchfab.com/3d-models/nintendo-gameboy-991e741e94ed4784abf51373f294ec5b
+* author:	Matthew Theobald (https://sketchfab.com/MatthewTheoblad)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Nintendo GameBoy" (https://sketchfab.com/3d-models/nintendo-gameboy-991e741e94ed4784abf51373f294ec5b) by Matthew Theobald (https://sketchfab.com/MatthewTheoblad) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
