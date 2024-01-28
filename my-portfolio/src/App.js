@@ -13,7 +13,7 @@ function App() {
       <ThreeDModel />
       <SocialLinks />
       <div className="username-tagline">
-        <h1 style={{ color: 'green', textAlign: 'center' }}>NextGenCrypto</h1>
+        <h1 style={{ color: 'green', textAlign: 'center' }}>NGC</h1>
         <p style={{ color: 'purple', textAlign: 'center' }}>The next generation is here</p>
       </div>
       <CustomPlayer 
